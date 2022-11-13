@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon --exec ts-node ./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "nodemon": "^2.0.20",
+    "ts-loader": "^9.4.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "prototype-helper": "^0.3.12"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "**/test/**",
+      "**/docs/**"
+    ],
+    "delay": 2500
+  }
+}
