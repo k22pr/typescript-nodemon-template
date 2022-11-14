@@ -12,7 +12,10 @@
   },
   "dependencies": {
     "dayjs": "^1.11.6",
-    "prototype-helper": "^0.3.12"
+    "dotenv": "^16.0.3",
+    "module-alias": "^2.2.2",
+    "prototype-helper": "^0.3.12",
+    "redis": "^4.5.0"
   },
   "nodemonConfig": {
     "ignore": [
@@ -20,5 +23,9 @@
       "**/docs/**"
     ],
     "delay": 2500
+  },
+  "_moduleAliases": {
+    "~": "./src/",
+    "@": "./src/"
   }
 }
