@@ -3,4 +3,15 @@ import "module-alias/register";
 import "prototype-helper";
 console.useTheme();
 
-console.log("hello");
+
+
+const start = async () => {
+  await Promise.all([]);
+};
+
+(async () => {
+  console.clear();
+  console.info("start server...");
+  console.log("hello");
+  await start();
+})();
