@@ -6,7 +6,7 @@ specifiers:
   dotenv: ^16.0.3
   module-alias: ^2.2.2
   nodemon: ^2.0.20
-  prototype-helper: ^0.3.12
+  prototype-helper: ^0.3.13
   redis: ^4.5.0
   ts-loader: ^9.4.1
   ts-node: ^10.9.1
@@ -16,7 +16,7 @@ dependencies:
   dayjs: 1.11.6
   dotenv: 16.0.3
   module-alias: 2.2.2
-  prototype-helper: 0.3.12
+  prototype-helper: 0.3.13
   redis: 4.5.0
 
 devDependencies:
@@ -240,8 +240,8 @@ packages:
       supports-color: 5.5.0
     dev: true
 
-  /decimal.js/10.4.2:
-    resolution: {integrity: sha512-ic1yEvwT6GuvaYwBLLY6/aFFgjZdySKTE8en/fkU3QICTmRtgtSlFn0u0BXN06InZwtfCelR7j8LRiDI/02iGA==}
+  /decimal.js/10.4.3:
+    resolution: {integrity: sha512-VBBaLc1MgL5XpzgIP7ny5Z6Nx3UrRkIViUkPUdtl9aya5amy3De1gsUUSB1g3+3sExYNjCAsAznmukyxCb1GRA==}
     dev: false
 
   /deep-clone/3.0.3:
@@ -402,10 +402,10 @@ packages:
     engines: {node: '>=8.6'}
     dev: true
 
-  /prototype-helper/0.3.12:
-    resolution: {integrity: sha512-E2SbODZkpB+OvWQvLu6VRHQ5wv+ZKI1728uLZMEPkEXLUqI0If1DV9wxlIfA6m6L0KECYGJg560ja7dAGeRLcw==}
+  /prototype-helper/0.3.13:
+    resolution: {integrity: sha512-pVC5FZ8NTZggptspobQbU9tS7+3JRRxuWKlrqdbY5A4VdLy+45WguatDQque8NpJpIXPhJDLDT/sHpZjovhzdQ==}
     dependencies:
-      decimal.js: 10.4.2
+      decimal.js: 10.4.3
       deep-clone: 3.0.3
     dev: false
 
