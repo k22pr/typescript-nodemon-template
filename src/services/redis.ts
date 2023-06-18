@@ -1,6 +1,6 @@
 import * as redis from "redis";
 
-const connectUrl = `rediss://${process.env.REDIS_USERNAME}:${process.env.REDIS_PASSWORD}@${process.env.REDIS_HOST}:${process.env.REDIS_PORT}`;
+const connectUrl = `redis://${process.env.REDIS_USERNAME}:${process.env.REDIS_PASSWORD}@${process.env.REDIS_HOST}:${process.env.REDIS_PORT}`;
 const client = redis.createClient({
   url: connectUrl,
   username: process.env.REDIS_USERNAME,

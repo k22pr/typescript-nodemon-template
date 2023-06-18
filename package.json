@@ -23,7 +23,7 @@
       "**/test/**",
       "**/docs/**"
     ],
-    "delay": 2500
+    "delay": 100
   },
   "_moduleAliases": {
     "~": "./src/",
